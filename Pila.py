@@ -1,4 +1,7 @@
 class Pila:
+
+    __slots__ = ['items', 'tamano']
+
     def __init__(self) -> None: 
         self.items = []
         self.tamano = 0
