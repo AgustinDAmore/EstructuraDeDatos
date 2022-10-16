@@ -11,8 +11,8 @@ class Pila:
         self.tamano += 1
 
     def desapilar(self) -> object:
-        return self.items.pop()
         self.tamano -= 1
+        return self.items.pop()
 
     def cima(self) -> object:
         return self.items[len(self.items)-1]
