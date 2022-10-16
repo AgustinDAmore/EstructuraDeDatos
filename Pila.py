@@ -6,7 +6,7 @@ class Pila:
         self.items = []
         self.tamano = 0
         
-    def tamano(self) -> int:
+    def tamanio(self) -> int:
         return self.tamano
 
     def apilar(self, item) -> None:
@@ -37,4 +37,4 @@ class Pila:
         return iter(self.items)
     
     def __len__(self):
-        return self.tamano()
+        return self.tamano
