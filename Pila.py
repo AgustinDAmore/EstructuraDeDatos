@@ -20,7 +20,7 @@ class Pila:
     def cima(self) -> object:
         return self.items[len(self.items)-1]
     
-    def Vacia(self) -> bool:
+    def vacia(self) -> bool:
         return self.tamano == 0
 
     def mostrar(self) -> list:
