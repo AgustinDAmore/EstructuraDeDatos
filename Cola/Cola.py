@@ -12,16 +12,20 @@ class Cola:
     def EsVacia(self):
         return self.tamano == 0
 
-    def Encolar(self, item):
+    def encolar(self, item):
         self.items.append(item)
         self.tamano += 1
 
-    def Desencolar(self):
+    def desencolar(self):
         self.tamano -= 1
         return self.items.pop(0)
 
-    def Frente(self):
+    def frente(self):
         return self.items[0]
+    
+    def vaciar(self):
+        self.items = []
+        self.tamano = 0
 
     def __repr__(self) -> str:
         return str(self.items)
