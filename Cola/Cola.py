@@ -9,7 +9,7 @@ class Cola:
     def tamano(self):
         return self.tamano
 
-    def EsVacia(self):
+    def esVacia(self):
         return self.tamano == 0
 
     def encolar(self, item):
